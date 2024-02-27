@@ -1,0 +1,83 @@
+body {
+  background-color: #f8f9fa; /* light gray */
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212529; /* dark gray */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #6c757d; /* medium gray */
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007bff; /* ocean blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3; /* darker ocean blue */
+}
+
+button {
+  background-color: #007bff; /* ocean blue */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* darker ocean blue */
+}
+
+.section {
+  background-color: #fff; /* white */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #007bff; /* ocean blue */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-text {
+  color: #6c757d; /* medium gray */
+  line-height: 1.6;
+}
+
+. ocean-blue-bg {
+  background-color: #007bff; /* ocean blue */
+  color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.ocean-blue-text {
+  color: #007bff; /* ocean blue */
+  font-weight: bold;
+}
+
+.coral {
+  color: #ff6347; /* coral */
+}
+
+.gold {
+  color: #ffd700; /* gold */
+}
