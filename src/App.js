@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Home from './components/Home'; 
 import About from './components/About';
 import MissionAndVision from './components/MissionAndVision';
 import News from './components/News';
@@ -8,7 +9,7 @@ import Career from './components/Career';
 import ContactInfo from './components/ContactInfo';
 import CodesAndStandards from './components/CodesAndStandards';
 import PictureAndVideo from './components/PictureAndVideo';
-import Home from './components/Home'; 
+import WhyChooseUs from './components/WhyChooseUs'; 
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
       <Home/>
       <About />
       <MissionAndVision />
+      <WhyChooseUs/>
       <News />
       <ProductsAndServices />
       <CodesAndStandards />
